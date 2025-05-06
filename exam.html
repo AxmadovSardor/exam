@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+    <link rel="shortcut icon" href="81q4uEuWZ3L.png" type="image/x-icon">
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <div class="exam-content">
+        <h1>Welcome to the Exam Page</h1>
+        <p>Please select your options below:</p>
+        <div id="time">
+            <h2>Loading . . .</h2>
+        </div>
+        <div class="options">
+            <button class="option choosen" id="chem-phy" class="choosen" onclick="chemphy()">Chemistry and Physics</button>
+            
+            <button class="option" id="bio-phy" onclick="biophy()">Biology and Physics</button>
+            
+            <button class="option" id="bio-chem" onclick="biochem()">Biology and Chemistry</button>
+            
+            <button class="option" id="Busi-combi-science" onclick="business()">Business and Combined Science</button>
+            
+        </div>
+        <div class="exam-list">
+            <table class="list" border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="day">Monday</td>
+                    <td id="28april"></td>
+                    <td id="5may">5-May</td>
+                    <td id="12may">12-May</td>
+                    <td id="19may">19-May<br><div class="now bus"><h3>Business P2<h3>
+                      <div class="info">
+                          <p>Time: 9:00 AM - 10:30 AM</p>
+                          <p>Duration: 1 hour 30 minutes</p>
+                          <p>Location: GYM</p>
+                          <p>Number of Candidates: 9</p>
+                      </div></div></td>
+                    <td id="26may">26-May</td>
+                    <td id="2june">2-June</td>
+                    <td id="9june">9-June</td>
+                  </tr>
+                  <tr>
+                    <td class="day">Tuesday</td>
+                    <td id="29april"></td>
+                    <td id="6may">6-May<br><div class="now bio"><h3>Biology P4<h3><div class="info">
+                      <p>Time: 9:00 AM - 10:15 AM</p>
+                      <p>Duration: 1 hour 15 min</p>
+                      <p>Location: GYM</p>
+                      <p>Number of Candidates: 7</p>
+                  </div></div>
+                  <br><div class="now comb"><h3>Combined Science P4<h3>
+                    <div class="info">
+                        <p>Time: 9:00 AM - 10:15 AM</p>
+                        <p>Duration: 1 hour 15 minutes</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 9</p>
+                    </div></div></td>
+                    <td id="13may">13-May<br><div class="now bio"><h3>Biology P6<h3><div class="info">
+                      <p>Time: 9:00 AM - 10:00 AM</p>
+                      <p>Duration: 1 hour</p>
+                      <p>Location: GYM</p>
+                      <p>Number of Candidates: 7</p>
+                  </div></div>
+                  <br><div class="now comb"><h3>Combined Science P6<h3>
+                    <div class="info">
+                        <p>Time: 9:00 AM - 10:00 AM</p>
+                        <p>Duration: 1 hour </p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 9</p>
+                    </div></div>
+                  </td>
+                    <td id="20may">20-May<br><div class="now phy"><h3>Physics P6<h3><div class="info">
+                        <p>Time: 9:00 AM - 10:00 AM</p>
+                        <p>Duration: 1 hour</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 8</p>
+                    </div></div></td>
+                    <td id="27may">27-May</td>
+                    <td id="3june">3-June</td>
+                    <td id="10june">10-June<br><div  class="now chem"><h3>Chemistry P2<h3> <div class="info">
+                        <p>Time: 9:00 AM - 09:45 AM</p>
+                        <p>Duration: 45 minutess</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 13</p>
+                    </div></div></td>
+                  </tr>
+                  <tr>
+                    <td class="day">Wednesday</td>
+                    <td id="30april">30-April<br><div class="now chem"><h3>Chemistry P4<h3>
+                        <div class="info">
+                            <p>Time: 9:00 AM - 10:15 AM</p>
+                            <p>Duration: 1 hour 15 minutes</p>
+                            <p>Location: GYM</p>
+                            <p>Number of Candidates: 13</p>
+                        </div></div>
+                    </td>
+                    <td id="7may">7-May<br> <div class="now"><h3>Mathematics P4<h3><div class="info">
+                        <p>Time: 13:00 PM - 15:00 PM</p>
+                        <p>Duration: 2 hour</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 23</p>
+                    </div></div></td>
+                    <td id="14may">14-May</td>
+                    <td id="21may">21-May</td>
+                    <td id="28may">28-May</td>
+                    <td id="4june">4-June<br><div class="now phy"><h3>Physics P2<h3><div class="info">
+                        <p>Time: 9:00 AM - 09:45 AM</p>
+                        <p>Duration: 45 minutes</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 8</p>
+                    </div></div>
+                    <br><div class="now comb"><h3>Combined Science P2<h3>
+                      <div class="info">
+                          <p>Time: 9:00 AM - 9:45 AM</p>
+                          <p>Duration: 45 minutes</p>
+                          <p>Location: GYM</p>
+                          <p>Number of Candidates: 9</p>
+                      </div></div></td>
+                    <td id="11june">11-June<br><div class="now bio"><h3>Biology P2<h3><div class="info">
+                      <p>Time: 9:00 AM - 09:45 AM</p>
+                      <p>Duration: 45 minutes</p>
+                      <p>Location: GYM</p>
+                      <p>Number of Candidates: 7</p>
+                  </div></div></td>
+                  </tr>
+                  <tr>
+                    <td class="day">Thursday</td>
+                    <td id="1may">1-May</td>
+                    <td id="8may">8-May</td>
+                    <td id="15may">15-May<br><div class="now chem"><h3>Chemistry P6<h3><div class="info">
+                        <p>Time: 9:00 AM - 10:00 AM</p>
+                        <p>Duration: 1 hour</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 13</p></div></div></td>
+                    <td id="22may">22-May</td>
+                    <td id="29may">29-May</td>
+                    <td id="5june">5-June</td>
+                    <td id="12june"></td>
+                  </tr>
+                  <tr>
+                    <td class="day">Friday</td>
+                    <td id="2may">2-May<br><div class="now"><h3>Mathematics P2<h3><div class="info">
+                        <p>Time: 13:00 PM - 15:00 PM</p>
+                        <p>Duration: 2 hour</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 23</p></div></div></td>
+                    <td id="9may">9-May<br><div class="now phy"><h3>Physics P4<h3><div class="info">
+                        <p>Time: 9:00 AM - 10:15 AM</p>
+                        <p>Duration: 1 hour 15 minutes</p>
+                        <p>Location: GYM</p>
+                        <p>Number of Candidates: 8</p>
+                    </div></div></td>
+                    <td id="16may">16-May<br><div class="now bus"><h3>Business P1<h3>
+                      <div class="info">
+                          <p>Time: 9:00 AM - 10:30 AM</p>
+                          <p>Duration: 1 hour 30 minutes</p>
+                          <p>Location: GYM</p>
+                          <p>Number of Candidates: 9</p>
+                      </div></div></td>
+                    <td id="23may">23-May</td>
+                    <td id="30may">30-May</td>
+                    <td id="6june">6-June</td>
+                    <td id="13june"></td>
+                  </tr>
+                  <tr>
+                    <td class="day">Saturday</td>
+                    <td id="3may">3-May</td>
+                    <td id="10may">10-May</td>
+                    <td id="17may">17-May</td>
+                    <td id="24may">24-May</td>
+                    <td id="31may">31-May</td>
+                    <td id="7june">7-June</td>
+                    <td id="14june"></td>
+                  </tr>
+                  <tr>
+                    <td class="day">Sunday</td>
+                    <td id="4may">4-May</td>
+                    <td id="11may">11-May</td>
+                    <td id="18may">18-May</td>
+                    <td id="25may">25-May</td>
+                    <td id="1june">1-June</td>
+                    <td id="8june">8-June</td>
+                    <td id="15june"></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+    </div>
+    <script src="exam.js"></script>
+</body>
+</html>
